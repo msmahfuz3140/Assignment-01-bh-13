@@ -237,6 +237,7 @@ body {
 
 .brain-content ul {
     margin-top: 40px;
+    display: block;
 }
 
 .brain-content ul li {
