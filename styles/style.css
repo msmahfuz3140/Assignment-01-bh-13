@@ -177,3 +177,48 @@ body {
     color: #627382;
     margin-top: 16px;
 }
+
+#brain{
+    width: 100%;
+}
+#brain .brain-container{
+    margin: 120px auto;
+    display: flex;
+    width: 1360px;
+    /* border: 1px solid red; */
+    align-items: center;
+    gap: 60px;
+}
+#brain .brain-container .brain-content{
+    width: 700px;
+    height: 396px;
+}
+.brain-content h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-top: 16px;
+}
+.brain-content p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
+.brain-content ul{
+    margin-top: 40px;
+}
+.brain-content ul li {
+    font-size: 16px;
+    color: #001931;
+    list-style: none;
+    margin-top: 16px;
+    display: flex;
+    
+
+}
+.brain-content ul li img{
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
