@@ -6,9 +6,6 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    
-    
-    
 }
 
 #nav {
@@ -42,7 +39,11 @@ body {
     padding: 12px 16px;
     color: white;
     border-radius: 4px;
+    cursor: pointer;
 
+}
+.btn button:hover{
+    background-color: #627382;
 }
 
 #hero {
@@ -89,20 +90,23 @@ body {
 .hero-content h1 span {
     color: #30B868;
 }
-.hero-content .pera-2{
+
+.hero-content .pera-2 {
     display: block;
     font-size: 18px;
     line-height: 24px;
     color: #ffffffe0;
     margin-bottom: 30px;
 }
-.hero-container .button{
+
+.hero-container .button {
     display: flex;
     justify-content: center;
     gap: 15px;
 
 }
-.button .btn-one{
+
+.button .btn-one {
     display: inline-flex;
     align-items: center;
     padding: 16px;
@@ -112,8 +116,13 @@ body {
     font-size: 16px;
     font-weight: 500;
     border: none;
+    cursor: pointer;
 }
-.button .btn-two{
+.button .btn-one:hover{
+    background-color: #627382;
+}
+
+.button .btn-two {
     display: inline-flex;
     align-items: center;
     padding: 16px;
@@ -121,46 +130,57 @@ body {
     border: 1px solid white;
     color: white;
     border-radius: 4px;
+    cursor: pointer;
 }
-#notes{
+.button .btn-two:hover{
+    background-color: #ff5e5e72;
+}
+
+#notes {
     width: 1360px;
     margin: 0 auto;
     /* border: 1px solid red; */
 }
-#notes .note-header{
+
+#notes .note-header {
     text-align: center;
     margin-top: 50px;
 
 }
-#notes .note-header h2{
+
+#notes .note-header h2 {
     font-size: 48px;
     font-weight: bold;
     color: #001931;
 }
-#notes .note-header p{
+
+#notes .note-header p {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
     margin-top: 16px;
 }
-#notes .card-box{
+
+#notes .card-box {
     display: flex;
     height: 300px;
     /* border: 2px solid red; */
     align-items: center;
     gap: 24px;
     margin-top: 44px;
-    
+
 }
-.card-box .card img{
+
+.card-box .card img {
     height: 60px;
     width: 60px;
-    background-color:#FF5E5E;
+    background-color: #FF5E5E;
     border-radius: 50%;
     padding: 14px;
-    
+
 }
-.card-box .card{
+
+.card-box .card {
     width: 322px;
     height: 300px;
     box-shadow: 0 0 8px 0 #0000001d;
@@ -168,23 +188,26 @@ body {
     padding: 60px 30px;
     border-radius: 8px;
 }
-.card-box .card h3{
+
+.card-box .card h3 {
     margin-top: 16px;
     font-size: 24px;
     font-weight: 600;
     color: #001931;
 }
-.card-box .card p{
+
+.card-box .card p {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
     margin-top: 16px;
 }
 
-#brain{
+#brain {
     width: 100%;
 }
-#brain .brain-container{
+
+#brain .brain-container {
     margin: 120px auto;
     display: flex;
     width: 1360px;
@@ -192,40 +215,47 @@ body {
     align-items: center;
     gap: 60px;
 }
-#brain .brain-container .brain-content{
+
+#brain .brain-container .brain-content {
     width: 700px;
     height: 396px;
 }
-.brain-content h2{
+
+.brain-content h2 {
     font-size: 48px;
     font-weight: bold;
     color: #001931;
     margin-top: 16px;
 }
-.brain-content p{
+
+.brain-content p {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
     margin-top: 16px;
 }
-.brain-content ul{
+
+.brain-content ul {
     margin-top: 40px;
 }
+
 .brain-content ul li {
     font-size: 16px;
     color: #001931;
     list-style: none;
     margin-top: 16px;
     display: flex;
-    
+
 
 }
-.brain-content ul li img{
+
+.brain-content ul li img {
     width: 20px;
     height: 20px;
     margin-right: 6px;
 }
-.ready-container{
+
+.ready-container {
     width: 1360px;
     height: 384px;
     /* border: 1px solid red; */
@@ -235,22 +265,26 @@ body {
     border-radius: 12px;
     margin-bottom: 120px;
 }
-.ready-container .ready-content{
+
+.ready-container .ready-content {
     padding-top: 80px;
 
 }
-.ready-content h2{
+
+.ready-content h2 {
     font-size: 40px;
     font-weight: bold;
     color: #001931;
 }
-.ready-content p{
+
+.ready-content p {
     font-size: 16px;
     line-height: 24px;
     color: #627382;
     margin-top: 16px;
 }
-.ready-button button{
+
+.ready-button button {
     display: inline-flex;
     align-items: center;
     padding: 16px;
@@ -261,8 +295,13 @@ body {
     font-weight: 500;
     border: none;
     margin-top: 24px;
+    cursor: pointer;
 }
-ul{
+.ready-button button:hover{
+    background-color: #627382;
+}
+
+ul {
     display: flex;
     gap: 4px;
     justify-content: center;
@@ -270,18 +309,21 @@ ul{
     color: #627382;
 
 }
-ul .list{
+
+ul .list {
     list-style: none;
     margin-right: 20px;
 }
-footer{
+
+footer {
     width: 100%;
     height: 348px;
     background-color: #001931;
-    
+
 
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -290,21 +332,25 @@ footer{
     margin-top: 120px;
     width: 1360px;
     height: 64px;
-    
+
 }
-.footer-container .footer-logo{
+
+.footer-container .footer-logo {
     margin-top: 120px;
 }
-.footer-container .footer-social{
+
+.footer-container .footer-social {
     margin-top: 120px;
 }
-.footer-social h3{
+
+.footer-social h3 {
     color: white;
     line-height: 28px;
     font-size: 20px;
     margin-bottom: 16px;
 }
-.footer-social .icon i{
+
+.footer-social .icon i {
 
     width: 40px;
     height: 40px;
@@ -314,15 +360,17 @@ footer{
     border-radius: 50%;
     background-color: white;
 }
-footer .copy p{
+
+footer .copy p {
     color: #FAFAFA;
     margin: 0 auto;
     text-align: center;
     margin-top: 230px;
     padding: 12px;
     width: 1600px;
-    height: 348px;
+    /* height: 348px; */
     line-height: 24px;
     border-top: 1px solid #627382;
+
 
 }
