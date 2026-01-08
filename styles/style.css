@@ -222,3 +222,52 @@ body {
     height: 20px;
     margin-right: 6px;
 }
+.ready-container{
+    width: 1360px;
+    height: 384px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    margin-bottom: 120px;
+}
+.ready-container .ready-content{
+    padding-top: 80px;
+
+}
+.ready-content h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+}
+.ready-content p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-top: 16px;
+}
+.ready-button button{
+    display: inline-flex;
+    align-items: center;
+    padding: 16px;
+    background-color: #469165;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    margin-top: 24px;
+}
+ul{
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    margin-top: 16px;
+    color: #627382;
+
+}
+ul .list{
+    list-style: none;
+    margin-right: 20px;
+}
